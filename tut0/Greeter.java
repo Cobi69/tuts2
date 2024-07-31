@@ -4,7 +4,6 @@ public class Greeter {
 public static void main(String[] args) { 
 
 	greeter(); 
->>>>>>> feature_input_greeter
 } 
 
   
@@ -22,11 +21,8 @@ String name = getName();
 System.out.println("Good day my friend, " + name + "\n" + "Just imagine like are on	drugs that this line is longer than it actually is"); 
 
 } 
- 
 
-public static void greeter(String name) { 
-
-System.out.println("Good day my friend, " + name + "\n" + "Just imagine like are on 	drugs that this line is longer than it actually is"); 
-
-} 
+public static void goodbye() {
+	System.out.println("Bernd you are a naai");
+}
 }
